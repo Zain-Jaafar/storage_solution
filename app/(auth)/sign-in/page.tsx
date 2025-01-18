@@ -1,5 +1,5 @@
 import React from 'react'
-import AuthForm from '@/app/components/AuthForm'
+import AuthForm from '@/components/AuthForm'
 
 export default function signIn() {
   return (
