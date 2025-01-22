@@ -132,10 +132,10 @@ function AuthForm({ type }: { type: FormType }) {
           
           <div className="body-2 flex justify-center">
             <p>
-              { type === "sign-in" ? "Don't ave an account?" : "Already have an account?" }
+              { type === "sign-in" ? "Don't have an account?" : "Already have an account?" }
             </p>
             <Link href={type === "sign-in" ? "/sign-up" : "/sign-in"} className="ml-1 font-medium text-brand">
-              { type === "sign-in" ? "Sign In" : "Sign Up" }
+              { type === "sign-in" ? "Sign Up" : "Sign In" }
             </Link>
           </div>
         </form>
